@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="520" viewBox="0 0 1400 520">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#366497"/>
+    </marker>
+  </defs>
+  <rect width="1400" height="520" fill="#ffffff"/>
+
+  <line x1="130" y1="75" x2="390" y2="75" stroke="#366497" stroke-width="1" marker-end="url(#arrow)"/>
+  <text x="260" y="63" text-anchor="middle" font-family="Arial" font-size="11" fill="#366497">tenderid</text>
+
+  <line x1="650" y1="75" x2="390" y2="75" stroke="#366497" stroke-width="1" marker-end="url(#arrow)"/>
+  <text x="520" y="63" text-anchor="middle" font-family="Arial" font-size="11" fill="#366497">tender_id</text>
+
+  <line x1="390" y1="235" x2="390" y2="75" stroke="#366497" stroke-width="1" marker-end="url(#arrow)"/>
+  <text x="404" y="155" font-family="Arial" font-size="11" fill="#366497">tenderid</text>
+
+  <line x1="390" y1="395" x2="390" y2="235" stroke="#366497" stroke-width="1" marker-end="url(#arrow)"/>
+  <text x="404" y="315" font-family="Arial" font-size="11" fill="#366497">lotid</text>
+
+  <line x1="790" y1="235" x2="390" y2="75" stroke="#366497" stroke-width="1" marker-end="url(#arrow)"/>
+  <text x="560" y="135" font-family="Arial" font-size="11" fill="#366497">tenderid</text>
+
+  <line x1="790" y1="235" x2="910" y2="75" stroke="#366497" stroke-width="1" marker-end="url(#arrow)"/>
+  <text x="875" y="135" font-family="Arial" font-size="11" fill="#366497">participantid</text>
+
+  <line x1="790" y1="395" x2="790" y2="235" stroke="#366497" stroke-width="1" marker-end="url(#arrow)"/>
+  <text x="804" y="315" font-family="Arial" font-size="11" fill="#366497">resultid</text>
+
+  <line x1="1090" y1="235" x2="790" y2="235" stroke="#366497" stroke-width="1" marker-end="url(#arrow)"/>
+  <text x="940" y="223" text-anchor="middle" font-family="Arial" font-size="11" fill="#366497">resultid</text>
+
+  <line x1="790" y1="235" x2="390" y2="235" stroke="#366497" stroke-width="1" stroke-dasharray="4 4" marker-end="url(#arrow)"/>
+  <text x="590" y="223" text-anchor="middle" font-family="Arial" font-size="11" fill="#366497">lotnumber</text>
+
+  <line x1="790" y1="395" x2="390" y2="395" stroke="#366497" stroke-width="1" stroke-dasharray="4 4" marker-end="url(#arrow)"/>
+  <text x="590" y="383" text-anchor="middle" font-family="Arial" font-size="11" fill="#366497">position_number = lotitemnumber</text>
+
+  <ellipse cx="130" cy="75" rx="90" ry="35" fill="#ffffff" stroke="#254569" stroke-width="1"/>
+  <text x="130" y="75" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="10" fill="#254569">tender2uuid</text>
+
+  <ellipse cx="390" cy="75" rx="90" ry="35" fill="#ffffff" stroke="#254569" stroke-width="1"/>
+  <text x="390" y="75" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="10" fill="#254569">tender</text>
+
+  <ellipse cx="650" cy="75" rx="90" ry="35" fill="#ffffff" stroke="#254569" stroke-width="1"/>
+  <text x="650" y="75" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="10" fill="#254569">tender_ext</text>
+
+  <ellipse cx="910" cy="75" rx="90" ry="35" fill="#ffffff" stroke="#254569" stroke-width="1"/>
+  <text x="910" y="75" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="10" fill="#254569">participant</text>
+
+  <ellipse cx="390" cy="235" rx="90" ry="35" fill="#ffffff" stroke="#254569" stroke-width="1"/>
+  <text x="390" y="235" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="10" fill="#254569">lot</text>
+
+  <ellipse cx="790" cy="235" rx="90" ry="35" fill="#ffffff" stroke="#254569" stroke-width="1"/>
+  <text x="790" y="235" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="10" fill="#254569">result</text>
+
+  <ellipse cx="1090" cy="235" rx="90" ry="35" fill="#ffffff" stroke="#254569" stroke-width="1"/>
+  <text x="1090" y="235" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="10" fill="#254569">result2uuid</text>
+
+  <ellipse cx="390" cy="395" rx="90" ry="35" fill="#ffffff" stroke="#254569" stroke-width="1"/>
+  <text x="390" y="395" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="10" fill="#254569">lotitem</text>
+
+  <ellipse cx="790" cy="395" rx="90" ry="35" fill="#ffffff" stroke="#254569" stroke-width="1"/>
+  <text x="790" y="395" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="10" fill="#254569">resultitem</text>
+</svg>

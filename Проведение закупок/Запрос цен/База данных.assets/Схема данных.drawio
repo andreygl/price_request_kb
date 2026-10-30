@@ -1,0 +1,71 @@
+<mxfile host="app.diagrams.net" modified="2026-10-30T00:00:00.000Z" agent="Kilo" version="24.0.0">
+  <diagram id="price-request-db" name="Схема данных">
+    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1300" pageHeight="800" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <mxCell id="tender2uuid" value="tender2uuid" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=1;fontFamily=Arial;fontSize=10;align=center;strokeColor=#254569;fontColor=#254569;fillOpacity=100;strokeOpacity=100;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="tender" value="tender" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=1;fontFamily=Arial;fontSize=10;align=center;strokeColor=#254569;fontColor=#254569;fillOpacity=100;strokeOpacity=100;" vertex="1" parent="1">
+          <mxGeometry x="300" y="40" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="tender_ext" value="tender_ext" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=1;fontFamily=Arial;fontSize=10;align=center;strokeColor=#254569;fontColor=#254569;fillOpacity=100;strokeOpacity=100;" vertex="1" parent="1">
+          <mxGeometry x="560" y="40" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="participant" value="participant" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=1;fontFamily=Arial;fontSize=10;align=center;strokeColor=#254569;fontColor=#254569;fillOpacity=100;strokeOpacity=100;" vertex="1" parent="1">
+          <mxGeometry x="820" y="40" width="180" height="70" as="geometry" />
+        </mxCell>
+
+        <mxCell id="lot" value="lot" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=1;fontFamily=Arial;fontSize=10;align=center;strokeColor=#254569;fontColor=#254569;fillOpacity=100;strokeOpacity=100;" vertex="1" parent="1">
+          <mxGeometry x="300" y="200" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="result" value="result" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=1;fontFamily=Arial;fontSize=10;align=center;strokeColor=#254569;fontColor=#254569;fillOpacity=100;strokeOpacity=100;" vertex="1" parent="1">
+          <mxGeometry x="700" y="200" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="result2uuid" value="result2uuid" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=1;fontFamily=Arial;fontSize=10;align=center;strokeColor=#254569;fontColor=#254569;fillOpacity=100;strokeOpacity=100;" vertex="1" parent="1">
+          <mxGeometry x="980" y="200" width="180" height="70" as="geometry" />
+        </mxCell>
+
+        <mxCell id="lotitem" value="lotitem" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=1;fontFamily=Arial;fontSize=10;align=center;strokeColor=#254569;fontColor=#254569;fillOpacity=100;strokeOpacity=100;" vertex="1" parent="1">
+          <mxGeometry x="300" y="360" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="resultitem" value="resultitem" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=1;fontFamily=Arial;fontSize=10;align=center;strokeColor=#254569;fontColor=#254569;fillOpacity=100;strokeOpacity=100;" vertex="1" parent="1">
+          <mxGeometry x="700" y="360" width="180" height="70" as="geometry" />
+        </mxCell>
+
+        <mxCell id="e_tender_tender2uuid" value="tenderid" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#366497;fontSize=11;fontColor=#366497;startArrow=classic;startFill=1;endArrow=none;" edge="1" parent="1" source="tender" target="tender2uuid">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_tender_tender_ext" value="tender_id" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#366497;fontSize=11;fontColor=#366497;startArrow=classic;startFill=1;endArrow=none;" edge="1" parent="1" source="tender" target="tender_ext">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_tender_lot" value="tenderid" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#366497;fontSize=11;fontColor=#366497;startArrow=classic;startFill=1;endArrow=none;" edge="1" parent="1" source="tender" target="lot">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_lot_lotitem" value="lotid" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#366497;fontSize=11;fontColor=#366497;startArrow=classic;startFill=1;endArrow=none;" edge="1" parent="1" source="lot" target="lotitem">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_tender_result" value="tenderid" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#366497;fontSize=11;fontColor=#366497;startArrow=classic;startFill=1;endArrow=none;" edge="1" parent="1" source="tender" target="result">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_participant_result" value="participantid" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#366497;fontSize=11;fontColor=#366497;startArrow=classic;startFill=1;endArrow=none;" edge="1" parent="1" source="participant" target="result">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_result_resultitem" value="resultid" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#366497;fontSize=11;fontColor=#366497;startArrow=classic;startFill=1;endArrow=none;" edge="1" parent="1" source="result" target="resultitem">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_result_result2uuid" value="resultid" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#366497;fontSize=11;fontColor=#366497;startArrow=classic;startFill=1;endArrow=none;" edge="1" parent="1" source="result" target="result2uuid">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_lot_result" value="lotnumber" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#366497;fontSize=11;fontColor=#366497;startArrow=classic;startFill=1;endArrow=none;dashed=1;" edge="1" parent="1" source="lot" target="result">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_lotitem_resultitem" value="position_number = lotitemnumber" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#366497;fontSize=11;fontColor=#366497;startArrow=classic;startFill=1;endArrow=none;dashed=1;" edge="1" parent="1" source="lotitem" target="resultitem">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
